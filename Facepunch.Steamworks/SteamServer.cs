@@ -301,6 +301,15 @@ namespace Steamworks
 		}
 
 		/// <summary>
+		/// Log onto Steam using a token.
+		/// </summary>
+		public static void LogOn( string token )
+		{
+			Internal.LogOn( token );
+			ForceHeartbeat();
+		}
+
+		/// <summary>
 		/// Log off of Steam.
 		/// </summary>
 		public static void LogOff()
