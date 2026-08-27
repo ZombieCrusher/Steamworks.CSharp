@@ -1,6 +1,6 @@
 # Facepunch.Steamworks
 
-[Another fucking c# Steamworks implementation](https://wiki.facepunch.com/steamworks/)
+<!-- [Another fucking c# Steamworks implementation](https://wiki.facepunch.com/steamworks/) -->
 
 ![Build All](https://github.com/Facepunch/Facepunch.Steamworks/workflows/Build%20All/badge.svg)
 
@@ -11,15 +11,14 @@
 | Windows | ✔ |
 | Linux | ✔ |
 | MacOS | ✔ |
-| Unity Support | ✔ |
-| Unity IL2CPP Support | ✔ |
 | Async Callbacks (steam callresults) | ✔ |
 | Events (steam callbacks) | ✔ |
 | Single C# dll (no native requirements apart from Steam) | ✔ |
 | Open Source | ✔ |
-| MIT license | ✔ |
-| Any 32bit OS | ✔  |
+<!-- | MIT license | ✔ | -->
+<!--| Any 32bit OS | ✔  | -->
 
+<!--
 ## Why
 
 The Steamworks C# implementations I found that were compatible with Unity have worked for a long time. But I hate them all. For a number of different reasons.
@@ -32,7 +31,7 @@ The Steamworks C# implementations I found that were compatible with Unity have w
 * They have a restrictive license.
 
 C# is meant to make things easier. So lets try to wrap it up in a way that makes it all easier.
-
+-->
 ## What
 
 ### Get your own information
@@ -344,7 +343,7 @@ catch ( System.Exception )
 }
 ```
 
-# Help
+<!-- # Help
 
 Wanna help? Go for it, pull requests, bug reports, yes, do it.
 
@@ -355,3 +354,4 @@ We also have [a wiki you can read](https://wiki.facepunch.com/steamworks/) and h
 # License
 
 MIT - do whatever you want.
+-->
