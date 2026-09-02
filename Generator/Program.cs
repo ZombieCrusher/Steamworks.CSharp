@@ -20,7 +20,7 @@ namespace Generator
 
 			var generator = new CodeWriter( def );
 
-            generator.ToFolder( "../Steamworks.CSharp/Generated/" );
+            generator.ToFolder( "../Facepunch.Steamworks/Generated/" );
         }
     }
 }
