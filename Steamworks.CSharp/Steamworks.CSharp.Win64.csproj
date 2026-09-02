@@ -39,6 +39,10 @@
 			<PackagePath>content</PackagePath>
 		</None>
 	</ItemGroup>
+  
+	<ItemGroup>
+	  <ProjectReference Include="Steamworks.CSharp.Win32.csproj" />
+	</ItemGroup>
 
 	<!-- <Import Project="Facepunch.Steamworks.targets" /> -->
 
